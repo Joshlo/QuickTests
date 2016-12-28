@@ -9,3 +9,14 @@ C:\kode\QuickAssertsForTests\QuickAssertsForTests\QuickAssertsForTests.Vsix\obj\
 C:\kode\QuickAssertsForTests\QuickAssertsForTests\QuickAssertsForTests.Vsix\obj\Release\QuickTests.dll
 C:\kode\QuickAssertsForTests\QuickAssertsForTests\QuickAssertsForTests.Vsix\obj\Release\QuickTests.pdb
 C:\kode\QuickAssertsForTests\QuickAssertsForTests\QuickAssertsForTests.Vsix\obj\Release\extension.vsixmanifest
+C:\kode\QuickTests\QuickTests\QuickTests.Vsix\bin\Release\Diagnostic.nuspec
+C:\kode\QuickTests\QuickTests\QuickTests.Vsix\bin\Release\tools\install.ps1
+C:\kode\QuickTests\QuickTests\QuickTests.Vsix\bin\Release\tools\uninstall.ps1
+C:\kode\QuickTests\QuickTests\QuickTests.Vsix\bin\Release\QuickTests.vsix
+C:\kode\QuickTests\QuickTests\QuickTests.Vsix\bin\Release\extension.vsixmanifest
+C:\kode\QuickTests\QuickTests\QuickTests.Vsix\bin\Release\QuickAsserts.dll
+C:\kode\QuickTests\QuickTests\QuickTests.Vsix\bin\Release\QuickAsserts.pdb
+C:\kode\QuickTests\QuickTests\QuickTests.Vsix\obj\Release\QuickTests.csprojResolveAssemblyReference.cache
+C:\kode\QuickTests\QuickTests\QuickTests.Vsix\obj\Release\QuickTests.dll
+C:\kode\QuickTests\QuickTests\QuickTests.Vsix\obj\Release\QuickTests.pdb
+C:\kode\QuickTests\QuickTests\QuickTests.Vsix\obj\Release\extension.vsixmanifest

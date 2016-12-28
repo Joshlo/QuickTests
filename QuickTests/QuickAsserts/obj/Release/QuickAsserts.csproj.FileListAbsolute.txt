@@ -7,3 +7,13 @@ C:\kode\QuickAssertsForTests\QuickAssertsForTests\QuickAssertsForTests\obj\Relea
 C:\kode\QuickAssertsForTests\QuickAssertsForTests\QuickAssertsForTests\obj\Release\QuickAsserts.csproj.GenerateResource.Cache
 C:\kode\QuickAssertsForTests\QuickAssertsForTests\QuickAssertsForTests\obj\Release\QuickAsserts.dll
 C:\kode\QuickAssertsForTests\QuickAssertsForTests\QuickAssertsForTests\obj\Release\QuickAsserts.pdb
+C:\kode\QuickTests\QuickTests\QuickAsserts\bin\Release\Diagnostic.nuspec
+C:\kode\QuickTests\QuickTests\QuickAsserts\bin\Release\tools\install.ps1
+C:\kode\QuickTests\QuickTests\QuickAsserts\bin\Release\tools\uninstall.ps1
+C:\kode\QuickTests\QuickTests\QuickAsserts\bin\Release\QuickAsserts.dll
+C:\kode\QuickTests\QuickTests\QuickAsserts\bin\Release\QuickAsserts.pdb
+C:\kode\QuickTests\QuickTests\QuickAsserts\obj\Release\QuickAsserts.csprojResolveAssemblyReference.cache
+C:\kode\QuickTests\QuickTests\QuickAsserts\obj\Release\QuickAsserts.Resources.resources
+C:\kode\QuickTests\QuickTests\QuickAsserts\obj\Release\QuickAsserts.csproj.GenerateResource.Cache
+C:\kode\QuickTests\QuickTests\QuickAsserts\obj\Release\QuickAsserts.dll
+C:\kode\QuickTests\QuickTests\QuickAsserts\obj\Release\QuickAsserts.pdb

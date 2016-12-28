@@ -67,7 +67,6 @@ namespace QuickAsserts
 
             var visitor = new Visitor();
             visitor.ParentName = localDecl.Declaration.Variables.FirstOrDefault().Identifier.Text;
-            visitor.Properties.Add(new ReflectedProperty { Name = localDecl.Declaration.Variables.FirstOrDefault().Identifier.Text, Type = typeSymbol.Name });
             visitor.Visit(typeSymbol);
 
             CreateAsserts(visitor.Properties);
