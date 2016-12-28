@@ -1,0 +1,17 @@
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+  <Metadata>
+    <Identity Id="QuickTests..e1a32520-94e3-410c-866c-7c730dbd5291" Version="1.0" Language="en-US" Publisher="Kenneth Pedersen" />
+    <DisplayName>QuickTests</DisplayName>
+    <Description xml:space="preserve">This plugin will help speeding up productivity when writing C# tests</Description>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Version="[14.0,]" Id="Microsoft.VisualStudio.Pro" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.Analyzer" Path="QuickAsserts.dll" />
+    <Asset Type="Microsoft.VisualStudio.MefComponent" Path="QuickAsserts.dll" />
+  </Assets>
+</PackageManifest>

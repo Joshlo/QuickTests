@@ -1,0 +1,11 @@
+C:\kode\QuickAssertsForTests\QuickAssertsForTests\QuickAssertsForTests.Vsix\bin\Debug\Diagnostic.nuspec
+C:\kode\QuickAssertsForTests\QuickAssertsForTests\QuickAssertsForTests.Vsix\bin\Debug\tools\install.ps1
+C:\kode\QuickAssertsForTests\QuickAssertsForTests\QuickAssertsForTests.Vsix\bin\Debug\tools\uninstall.ps1
+C:\kode\QuickAssertsForTests\QuickAssertsForTests\QuickAssertsForTests.Vsix\bin\Debug\QuickTests.Vsix.vsix
+C:\kode\QuickAssertsForTests\QuickAssertsForTests\QuickAssertsForTests.Vsix\bin\Debug\extension.vsixmanifest
+C:\kode\QuickAssertsForTests\QuickAssertsForTests\QuickAssertsForTests.Vsix\bin\Debug\QuickAsserts.dll
+C:\kode\QuickAssertsForTests\QuickAssertsForTests\QuickAssertsForTests.Vsix\bin\Debug\QuickAsserts.pdb
+C:\kode\QuickAssertsForTests\QuickAssertsForTests\QuickAssertsForTests.Vsix\obj\Debug\QuickTests.Vsix.csprojResolveAssemblyReference.cache
+C:\kode\QuickAssertsForTests\QuickAssertsForTests\QuickAssertsForTests.Vsix\obj\Debug\QuickTests.Vsix.dll
+C:\kode\QuickAssertsForTests\QuickAssertsForTests\QuickAssertsForTests.Vsix\obj\Debug\QuickTests.Vsix.pdb
+C:\kode\QuickAssertsForTests\QuickAssertsForTests\QuickAssertsForTests.Vsix\obj\Debug\extension.vsixmanifest

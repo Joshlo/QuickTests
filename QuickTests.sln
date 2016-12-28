@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickAsserts", "QuickTests\QuickAsserts\QuickAsserts.csproj", "{21AD3327-F4BF-484C-962E-C1BDCC4B47AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickAsserts.Test", "QuickTests\QuickAsserts.Test\QuickAsserts.Test.csproj", "{739B0C51-3CEA-471D-81E5-E2352948657A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickTests", "QuickTests\QuickTests.Vsix\QuickTests.csproj", "{ADBDAF50-2D54-4BE6-9FD7-2DF9071DB303}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21AD3327-F4BF-484C-962E-C1BDCC4B47AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21AD3327-F4BF-484C-962E-C1BDCC4B47AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21AD3327-F4BF-484C-962E-C1BDCC4B47AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21AD3327-F4BF-484C-962E-C1BDCC4B47AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{739B0C51-3CEA-471D-81E5-E2352948657A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{739B0C51-3CEA-471D-81E5-E2352948657A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{739B0C51-3CEA-471D-81E5-E2352948657A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{739B0C51-3CEA-471D-81E5-E2352948657A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADBDAF50-2D54-4BE6-9FD7-2DF9071DB303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADBDAF50-2D54-4BE6-9FD7-2DF9071DB303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADBDAF50-2D54-4BE6-9FD7-2DF9071DB303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADBDAF50-2D54-4BE6-9FD7-2DF9071DB303}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

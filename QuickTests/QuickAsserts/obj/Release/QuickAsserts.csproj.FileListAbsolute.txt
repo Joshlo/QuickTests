@@ -1,0 +1,9 @@
+C:\kode\QuickAssertsForTests\QuickAssertsForTests\QuickAssertsForTests\bin\Release\Diagnostic.nuspec
+C:\kode\QuickAssertsForTests\QuickAssertsForTests\QuickAssertsForTests\bin\Release\tools\install.ps1
+C:\kode\QuickAssertsForTests\QuickAssertsForTests\QuickAssertsForTests\bin\Release\tools\uninstall.ps1
+C:\kode\QuickAssertsForTests\QuickAssertsForTests\QuickAssertsForTests\bin\Release\QuickAsserts.dll
+C:\kode\QuickAssertsForTests\QuickAssertsForTests\QuickAssertsForTests\bin\Release\QuickAsserts.pdb
+C:\kode\QuickAssertsForTests\QuickAssertsForTests\QuickAssertsForTests\obj\Release\QuickAsserts.Resources.resources
+C:\kode\QuickAssertsForTests\QuickAssertsForTests\QuickAssertsForTests\obj\Release\QuickAsserts.csproj.GenerateResource.Cache
+C:\kode\QuickAssertsForTests\QuickAssertsForTests\QuickAssertsForTests\obj\Release\QuickAsserts.dll
+C:\kode\QuickAssertsForTests\QuickAssertsForTests\QuickAssertsForTests\obj\Release\QuickAsserts.pdb
