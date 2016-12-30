@@ -67,7 +67,20 @@ namespace QuickAsserts
 
             var visitor = new Visitor();
             visitor.ParentName = localDecl.Declaration.Variables.FirstOrDefault().Identifier.Text;
-            visitor.Visit(typeSymbol);
+
+            if (Visitor.IsCustomType(typeSymbol.Name) && Visitor.IsCustomType(((INamedTypeSymbol)typeSymbol).BaseType.Name))
+            {
+                visitor.Visit(typeSymbol);
+            }
+            else
+            {
+                var rp = new ReflectedProperty
+                {
+                    Name = visitor.ParentName,
+                    Type = ((INamedTypeSymbol)typeSymbol).BaseType.Name == "Enum" ? ((INamedTypeSymbol)typeSymbol).BaseType.Name : typeSymbol.Name
+                };
+                visitor.Properties.Add(rp);
+            }
 
             CreateAsserts(visitor.Properties);
 
@@ -84,6 +97,8 @@ namespace QuickAsserts
 
             var memberAccess = SyntaxFactory.MemberAccessExpression(SyntaxKind.SimpleMemberAccessExpression, assert,
                 areEqual);
+
+            var isfirst = true;
 
             foreach (var property in properties)
             {
@@ -141,6 +156,15 @@ namespace QuickAsserts
                             SyntaxFactory.ArgumentList(argumentList))));
 
                     continue;
+                }
+
+                if (isfirst)
+                {
+                    memberAccess = memberAccess.WithLeadingTrivia(
+                            SyntaxFactory.TriviaList(new[]
+                                {SyntaxFactory.SyntaxTrivia(SyntaxKind.EndOfLineTrivia, string.Empty)}));
+
+                    isfirst = false;
                 }
 
                 _asserts.Add(

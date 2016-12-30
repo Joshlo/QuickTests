@@ -8,3 +8,13 @@ C:\kode\QuickAssertsForTests\QuickAssertsForTests\QuickAssertsForTests\bin\Debug
 C:\kode\QuickAssertsForTests\QuickAssertsForTests\QuickAssertsForTests\obj\Debug\QuickAsserts.Resources.resources
 C:\kode\QuickAssertsForTests\QuickAssertsForTests\QuickAssertsForTests\obj\Debug\QuickAsserts.dll
 C:\kode\QuickAssertsForTests\QuickAssertsForTests\QuickAssertsForTests\obj\Debug\QuickAsserts.pdb
+C:\kode\QuickTests\QuickTests\QuickAsserts\bin\Debug\Diagnostic.nuspec
+C:\kode\QuickTests\QuickTests\QuickAsserts\bin\Debug\tools\install.ps1
+C:\kode\QuickTests\QuickTests\QuickAsserts\bin\Debug\tools\uninstall.ps1
+C:\kode\QuickTests\QuickTests\QuickAsserts\bin\Debug\QuickAsserts.dll
+C:\kode\QuickTests\QuickTests\QuickAsserts\bin\Debug\QuickAsserts.pdb
+C:\kode\QuickTests\QuickTests\QuickAsserts\obj\Debug\QuickAsserts.csprojResolveAssemblyReference.cache
+C:\kode\QuickTests\QuickTests\QuickAsserts\obj\Debug\QuickAsserts.Resources.resources
+C:\kode\QuickTests\QuickTests\QuickAsserts\obj\Debug\QuickAsserts.csproj.GenerateResource.Cache
+C:\kode\QuickTests\QuickTests\QuickAsserts\obj\Debug\QuickAsserts.dll
+C:\kode\QuickTests\QuickTests\QuickAsserts\obj\Debug\QuickAsserts.pdb

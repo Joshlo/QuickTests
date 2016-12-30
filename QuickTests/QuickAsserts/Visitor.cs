@@ -24,7 +24,7 @@ namespace QuickAsserts
                 rp.Type = "Int32";
                 Properties.Add(rp);
             }
-            else if (type.BaseType.Name == "Array")
+            else if (type.BaseType?.Name == "Array" || type.Name == "IEnumerable")
             {
                 rp.Name = firstOrLast != null
                     ? $"{currentParentName}.{firstOrLast}.{symbol.Name}.Count()"
@@ -40,7 +40,7 @@ namespace QuickAsserts
                 rp.Type = type.BaseType.Name;
                 Properties.Add(rp);
             }
-            else if(!IsCustomType(type.Name))
+            else if (!IsCustomType(type.Name))
             {
                 rp.Name = firstOrLast != null
                     ? $"{currentParentName}.{firstOrLast}.{symbol.Name}"
@@ -48,17 +48,14 @@ namespace QuickAsserts
                 rp.Type = type.Name;
                 Properties.Add(rp);
             }
-            
 
-            
-
-            if (type.Name == "List")
+            if (type.Name == "List" || type.Name == "IEnumerable")
             {
                 type = ((INamedTypeSymbol)symbol.GetMethod.ReturnType).TypeArguments[0];
                 if (IsCustomType(type.Name))
                 {
                     currentParentName = $"{currentParentName}.{symbol.Name}";
-                    
+
                     firstOrLast = "FirstOrDefault()";
                     VisitNamedType(type as INamedTypeSymbol);
                     firstOrLast = "LastOrDefault()";
@@ -91,7 +88,7 @@ namespace QuickAsserts
                 if (IsCustomType(type.Name))
                 {
                     currentParentName = $"{currentParentName}.{symbol.Name}";
-                    
+
                     firstOrLast = "FirstOrDefault()";
                     VisitNamedType(type as INamedTypeSymbol);
                     firstOrLast = "LastOrDefault()";
@@ -120,7 +117,7 @@ namespace QuickAsserts
             else if (type.Name == "Dictionary")
             {
                 type = ((INamedTypeSymbol)symbol.GetMethod.ReturnType).TypeArguments[1];
-                if (IsCustomType(((INamedTypeSymbol) symbol.GetMethod.ReturnType).TypeArguments[1].Name))
+                if (IsCustomType(type.Name))
                 {
                     currentParentName = $"{currentParentName}.{symbol.Name}";
 
@@ -160,8 +157,6 @@ namespace QuickAsserts
             }
         }
 
-        //NOTE: We have to visit the named type's children even though
-        //we don't care about them. :(
         public override void VisitNamedType(INamedTypeSymbol symbol)
         {
             if (currentParentName == null)
@@ -173,14 +168,15 @@ namespace QuickAsserts
             }
         }
 
-        private static bool IsCustomType(string typeName)
+        public static bool IsCustomType(string typeName)
         {
             return
                 typeName != "String" &&
                 typeName != "Int16" &&
                 typeName != "Int32" &&
                 typeName != "Int64" &&
-                typeName != "DateTime";
+                typeName != "DateTime" &&
+                typeName != "Enum";
         }
     }
 }
