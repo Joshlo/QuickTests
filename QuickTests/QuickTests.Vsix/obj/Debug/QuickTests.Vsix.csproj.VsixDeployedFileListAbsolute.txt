@@ -1,6 +1,0 @@
-C:\Users\Kenneth Pedersen\AppData\Local\Microsoft\VisualStudio\14.0Roslyn\Extensions\Kenneth Pedersen\QuickTests\1.0\\QuickAsserts.dll
-C:\Users\Kenneth Pedersen\AppData\Local\Microsoft\VisualStudio\14.0Roslyn\Extensions\Kenneth Pedersen\QuickTests\1.0\\extension.vsixmanifest
-C:\Users\Kenneth Pedersen\AppData\Local\Microsoft\VisualStudio\14.0Roslyn\Extensions\Kenneth Pedersen\QuickTests\1.0\\Diagnostic.nuspec
-C:\Users\Kenneth Pedersen\AppData\Local\Microsoft\VisualStudio\14.0Roslyn\Extensions\Kenneth Pedersen\QuickTests\1.0\\tools\install.ps1
-C:\Users\Kenneth Pedersen\AppData\Local\Microsoft\VisualStudio\14.0Roslyn\Extensions\Kenneth Pedersen\QuickTests\1.0\\tools\uninstall.ps1
-C:\Users\Kenneth Pedersen\AppData\Local\Microsoft\VisualStudio\14.0Roslyn\Extensions\Kenneth Pedersen\QuickTests\1.0\\QuickAsserts.pdb
